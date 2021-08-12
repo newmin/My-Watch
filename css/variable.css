@@ -1,0 +1,10 @@
+:root{
+  --off-color : #B7BCBF;
+  --on-color : #9DFF5A;
+
+  --bar-length : 200px;
+  --bar-thickness : 7px;
+  --bar-border-radius : 0 50px;
+
+  --distance : 213px;
+}

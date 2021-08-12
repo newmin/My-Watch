@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My watch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="src/clock.js" defer></script>
+</head>
+<body>
+
+  <header class="btns">
+    <button class="watch-btn">Clock</button>
+    <button class="stop-btn">Stop-watch</button>
+    <button class="timer-btn">Timer</button>
+  </header>
+
+  <main>
+
+    <section class="clock">
+       <div class="clock-box">
+         <!-- 10의 자리 / 시 -->
+         <div class="ten-hour">
+          <div class="number">
+            <div class="bar row-bar 0 2 3 5 6 7 8 9"></div>
+            <div class="row">
+              <div class="bar column-bar 0 4 5 6 7 8 9"></div>
+              <div class="bar column-bar 0 1 3 4 7 8 9"></div>
+            </div>
+            <div class="bar row-bar 2 3 4 5 6 8 9"></div>
+            <div class="row">
+              <div class="bar column-bar 0 2 6 8"></div>
+              <div class="bar column-bar 0 1 3 4 5 6 7 8 9"></div>
+            </div>
+            <div class="bar row-bar 0 2 3 5 6 8 9"></div>
+          </div>
+        </div>
+        <!-- 1의 자리 / 시 -->
+        <div class="one-hour">
+          <div class="number">
+            <div class="row-bar 0 2 3 5 6 7 8 9"></div>
+            <div class="row">
+              <div class="column-bar 0 4 5 6 7 8 9"></div>
+              <div class="column-bar 0 1 3 4 7 8 9"></div>
+            </div>
+            <div class="row-bar 2 3 4 5 6 8 9"></div>
+            <div class="row">
+              <div class="column-bar 0 2 6 8"></div>
+              <div class="column-bar 0 1 3 4 5 6 7 8 9"></div>
+            </div>
+            <div class="row-bar 0 2 3 5 6 8 9"></div>
+          </div>
+        </div>
+         <!-- 시간단위 나눔자 -->
+         <div class="divide">
+          <div class="column-bar"></div>
+          <div class="column-bar"></div>
+        </div>
+         <!-- 10의 자리 / 분 -->
+         <div class="ten-min">
+          <div class="number">
+            <div class="row-bar 0 2 3 5 6 7 8 9"></div>
+            <div class="row">
+              <div class="column-bar 0 4 5 6 7 8 9"></div>
+              <div class="column-bar 0 1 3 4 7 8 9"></div>
+            </div>
+            <div class="row-bar 2 3 4 5 6 8 9"></div>
+            <div class="row">
+              <div class="column-bar 0 2 6 8"></div>
+              <div class="column-bar 0 1 3 4 5 6 7 8 9"></div>
+            </div>
+            <div class="row-bar 0 2 3 5 6 8 9"></div>
+          </div>
+        </div>
+          <!-- 1의 자리 / 분 -->
+          <div class="one-min">
+            <div class="number">
+              <div class="row-bar 0 2 3 5 6 7 8 9"></div>
+              <div class="row">
+                <div class="column-bar 0 4 5 6 7 8 9"></div>
+                <div class="column-bar 0 1 3 4 7 8 9"></div>
+              </div>
+              <div class="row-bar 2 3 4 5 6 8 9"></div>
+              <div class="row">
+                <div class="column-bar 0 2 6 8"></div>
+                <div class="column-bar 0 1 3 4 5 6 7 8 9"></div>
+              </div>
+              <div class="row-bar 0 2 3 5 6 8 9"></div>
+            </div>
+          </div>
+          <!-- 시간단위 나눔자 -->
+          <div class="divide">
+            <div class="column-bar"></div>
+            <div class="column-bar"></div>
+          </div>
+          <!-- 10의 자리 / 초 -->
+          <div class="ten-sec">
+            <div class="number">
+              <div class="row-bar 0 2 3 5 6 7 8 9"></div>
+              <div class="row">
+                <div class="column-bar 0 4 5 6 7 8 9"></div>
+                <div class="column-bar 0 1 3 4 7 8 9"></div>
+              </div>
+              <div class="row-bar 2 3 4 5 6 8 9"></div>
+              <div class="row">
+                <div class="column-bar 0 2 6 8"></div>
+                <div class="column-bar 0 1 3 4 5 6 7 8 9"></div>
+              </div>
+              <div class="row-bar 0 2 3 5 6 8 9"></div>
+            </div>
+          </div>
+          <!-- 1의 자리 / 초 -->
+          <div class="one-sec">
+            <div class="number">
+              <div class="row-bar 0 2 3 5 6 7 8 9"></div>
+              <div class="row">
+                <div class="column-bar 0 4 5 6 7 8 9"></div>
+                <div class="column-bar 0 1 3 4 7 8 9"></div>
+              </div>
+              <div class="row-bar 2 3 4 5 6 8 9"></div>
+              <div class="row">
+                <div class="column-bar 0 2 6 8"></div>
+                <div class="column-bar 0 1 3 4 5 6 7 8 9"></div>
+              </div>
+              <div class="row-bar 0 2 3 5 6 8 9"></div>
+            </div>
+          </div>
+    </section>
+
+
+    
+
+  </main>
+</body>
+</html>
